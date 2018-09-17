@@ -6,10 +6,10 @@
     <class>entity.BallPlayer</class>
     <class>entity.Person</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb?useSSL=false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
-      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="admin"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="liluzivert23"/>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
       <!--
       <property name="eclipselink.logging.level.sql" value="fine" />
